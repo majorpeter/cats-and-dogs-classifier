@@ -1,0 +1,4 @@
+INPUT_DIR = 'input/'
+DATASET_NAME = 'PetImages'
+IMAGE_SIZE = (180, 180)
+BATCH_SIZE = 32
