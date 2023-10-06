@@ -70,6 +70,7 @@ async function setImageAndPredict(url) {
 }
 
 (async () => {
+  await tf.setBackend('wasm');
   model = await tf.loadGraphModel('model.json');
 
   document.getElementById('view-btn').addEventListener('click', (ev) => {
